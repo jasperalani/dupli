@@ -14,21 +14,24 @@ import (
 	"time"
 
 	copyfile "github.com/jasperalani/copyfile"
-
 	aurora "github.com/logrusorgru/aurora"
 	imgdiff "github.com/n7olkachev/imgdiff/pkg/imgdiff"
 )
 
+var logEnabled = false
+
 func main() {
 
-	scan := flag.Bool("scan", false, "Start the scan.")
 	loc := flag.String("loc", "", "Folder location to scan, Omit for current directory.")
+	log := flag.Bool("log", false, "Log the applications processes to a file.")
 
 	flag.Parse()
 
-	if false == *scan {
-		fmt.Printf("%s", aurora.Red("Flag -scan required.\n").Bold())
-		return
+	logEnabled = *log
+
+	logDir, err := filepath.Abs(filepath.Dir(os.Args[0]))
+	if err != nil {
+		panic(err)
 	}
 
 	var directory string
@@ -37,13 +40,20 @@ func main() {
 		directory = "current directory"
 	} else {
 		directory = *loc
+		logDir = directory
 	}
 
 	fmt.Printf("%s %s", appName(), aurora.Yellow("Scanning "+directory+" ...\n").Bold())
 
+	appendToLog(
+		fmt.Sprintf("%s, %s, %s",
+			"SCAN",
+			time.Now().Format(time.RFC850),
+			logDir))
+
 	var filenames []string
 
-	err := filepath.Walk(*loc, func(path string, info os.FileInfo, err error) error {
+	err = filepath.Walk(*loc, func(path string, info os.FileInfo, err error) error {
 		filenames = append(filenames, path)
 		return nil
 	})
@@ -78,6 +88,11 @@ func main() {
 			directory = *loc
 		}
 		fmt.Printf("%s %s", appName(), aurora.Red("No images in "+directory+"\n").Bold())
+		appendToLog(
+			fmt.Sprintf("%s, %s, %s",
+				"FINISH",
+				time.Now().Format(time.RFC850),
+				"DIR_NO_IMAGES"))
 		return
 	}
 
@@ -137,6 +152,11 @@ func main() {
 
 	if 0 == len(duplicates) {
 		fmt.Printf("%s %s", appName(), aurora.Green("No duplicates found!\n").Bold())
+		appendToLog(
+			fmt.Sprintf("%s, %s, %s",
+				"FINISH",
+				time.Now().Format(time.RFC850),
+				"NO_DUP_FOUND"))
 		return
 	}
 
@@ -154,11 +174,18 @@ func main() {
 
 	for _, duplicate := range duplicates {
 		// Copy duplicate
-		var destination = duplicateDirectory + "/" + getFileNameFromPath(duplicate.img2.filepath)
-		err = copyfile.CopyFile(duplicate.img2.filepath, destination)
+		duplicateFilename := getFileNameFromPath(duplicate.img2.filepath)
+		var destination = duplicateDirectory + "/" + duplicateFilename
+		err = copyfile.CopyFile(duplicate.img1.filepath, destination)
 		if err != nil {
 			panic(err)
 		}
+		appendToLog(
+			fmt.Sprintf("%s, %s, %s, %s",
+				"COPY",
+				time.Now().Format(time.RFC850),
+				duplicateFilename,
+				duplicateDirectory))
 	}
 
 	fmt.Printf("%s %s", appName(), aurora.Red("Deleting original duplicates...\n").Bold())
@@ -169,7 +196,14 @@ func main() {
 		if err != nil {
 			panic(err)
 		}
+		appendToLog(
+			fmt.Sprintf("%s, %s, %s",
+				"DELETE",
+				time.Now().Format(time.RFC850),
+				duplicate.img1.filepath))
 	}
+
+	fmt.Printf("%s %s", appName(), aurora.Green("Finished!\n").Bold())
 
 }
 
@@ -178,6 +212,9 @@ func appName() string {
 }
 
 func appendToLog(text string) {
+	if !logEnabled {
+		return
+	}
 	f, err := os.OpenFile("dupli.log",
 		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
