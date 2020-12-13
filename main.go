@@ -205,6 +205,13 @@ func main() {
 
 	fmt.Printf("%s %s", appName(), aurora.Green("Finished!\n").Bold())
 
+	appendToLog(
+		fmt.Sprintf("%s, %s, %s, %s",
+			"FINISH",
+			time.Now().Format(time.RFC850),
+			"SUCCESS",
+			"COUNT_"+strconv.Itoa(len(duplicates))))
+
 }
 
 func appName() string {

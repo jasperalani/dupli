@@ -1,44 +1,45 @@
-SCAN, Sunday, 13-Dec-20 22:00:35 GMT, /home/jasper/Pictures/dupli
-COMPARE, Sunday, 13-Dec-20 22:00:39 GMT, Home_made_sour_dough_bread (copy).jpg, Home_made_sour_dough_bread.jpg, (0,0)-(8688,5607), (0,0)-(8688,5607)
-MATCH, Sunday, 13-Dec-20 22:00:40 GMT, Home_made_sour_dough_bread (copy).jpg, Home_made_sour_dough_bread.jpg, (0,0)-(8688,5607), (0,0)-(8688,5607)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, Screenshot from 2020-11-18 16-08-59 (copy).png, cart (copy).png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, Screenshot from 2020-11-18 16-08-59 (copy).png, cart.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, Screenshot from 2020-11-18 16-08-59 (copy).png, wn.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, Square_200x200 (copy).png, dummy-200x200 (copy).png, (0,0)-(200,200), (0,0)-(200,200)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, Square_200x200 (copy).png, dummy-200x200.png, (0,0)-(200,200), (0,0)-(200,200)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, cart (copy).png, cart.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-MATCH, Sunday, 13-Dec-20 22:00:42 GMT, cart (copy).png, cart.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-COMPARE, Sunday, 13-Dec-20 22:00:42 GMT, cart (copy).png, wn.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-COMPARE, Sunday, 13-Dec-20 22:00:43 GMT, cart.png, wn.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
-COMPARE, Sunday, 13-Dec-20 22:00:43 GMT, cb (copy).png, cb.png, (0,0)-(1056,521), (0,0)-(1056,521)
-MATCH, Sunday, 13-Dec-20 22:00:43 GMT, cb (copy).png, cb.png, (0,0)-(1056,521), (0,0)-(1056,521)
-COMPARE, Sunday, 13-Dec-20 22:00:43 GMT, cross-icon (copy).png, cross-icon.png, (0,0)-(320,512), (0,0)-(320,512)
-MATCH, Sunday, 13-Dec-20 22:00:43 GMT, cross-icon (copy).png, cross-icon.png, (0,0)-(320,512), (0,0)-(320,512)
-COMPARE, Sunday, 13-Dec-20 22:00:43 GMT, datasource (copy).png, datasource.png, (0,0)-(802,688), (0,0)-(802,688)
-MATCH, Sunday, 13-Dec-20 22:00:43 GMT, datasource (copy).png, datasource.png, (0,0)-(802,688), (0,0)-(802,688)
-COMPARE, Sunday, 13-Dec-20 22:00:43 GMT, dummy-200x200 (copy).png, dummy-200x200.png, (0,0)-(200,200), (0,0)-(200,200)
-MATCH, Sunday, 13-Dec-20 22:00:43 GMT, dummy-200x200 (copy).png, dummy-200x200.png, (0,0)-(200,200), (0,0)-(200,200)
-COMPARE, Sunday, 13-Dec-20 22:00:43 GMT, edit (copy).png, edit.png, (0,0)-(452,452), (0,0)-(452,452)
-MATCH, Sunday, 13-Dec-20 22:00:43 GMT, edit (copy).png, edit.png, (0,0)-(452,452), (0,0)-(452,452)
-COMPARE, Sunday, 13-Dec-20 22:00:44 GMT, footer (copy).png, footer.png, (0,0)-(328,548), (0,0)-(328,548)
-MATCH, Sunday, 13-Dec-20 22:00:44 GMT, footer (copy).png, footer.png, (0,0)-(328,548), (0,0)-(328,548)
-COMPARE, Sunday, 13-Dec-20 22:00:44 GMT, mobile (copy).png, mobile.png, (0,0)-(659,804), (0,0)-(659,804)
-MATCH, Sunday, 13-Dec-20 22:00:44 GMT, mobile (copy).png, mobile.png, (0,0)-(659,804), (0,0)-(659,804)
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, Home_made_sour_dough_bread.jpg, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, cart.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, cb.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, cross-icon.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, datasource.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, dummy-200x200.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, edit.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, footer.png, /home/jasper/Pictures/dupli/duplicates
-COPY, Sunday, 13-Dec-20 22:00:44 GMT, mobile.png, /home/jasper/Pictures/dupli/duplicates
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/Home_made_sour_dough_bread (copy).jpg
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/cart (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/cb (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/cross-icon (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/datasource (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/dummy-200x200 (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/edit (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/footer (copy).png
-DELETE, Sunday, 13-Dec-20 22:00:44 GMT, /home/jasper/Pictures/dupli/mobile (copy).png
+SCAN, Sunday, 13-Dec-20 22:12:53 GMT, /home/jasper/Pictures/dupli
+COMPARE, Sunday, 13-Dec-20 22:12:57 GMT, Home_made_sour_dough_bread (copy).jpg, Home_made_sour_dough_bread.jpg, (0,0)-(8688,5607), (0,0)-(8688,5607)
+MATCH, Sunday, 13-Dec-20 22:12:58 GMT, Home_made_sour_dough_bread (copy).jpg, Home_made_sour_dough_bread.jpg, (0,0)-(8688,5607), (0,0)-(8688,5607)
+COMPARE, Sunday, 13-Dec-20 22:13:00 GMT, Screenshot from 2020-11-18 16-08-59 (copy).png, cart (copy).png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+COMPARE, Sunday, 13-Dec-20 22:13:00 GMT, Screenshot from 2020-11-18 16-08-59 (copy).png, cart.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+COMPARE, Sunday, 13-Dec-20 22:13:00 GMT, Screenshot from 2020-11-18 16-08-59 (copy).png, wn.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, Square_200x200 (copy).png, dummy-200x200 (copy).png, (0,0)-(200,200), (0,0)-(200,200)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, Square_200x200 (copy).png, dummy-200x200.png, (0,0)-(200,200), (0,0)-(200,200)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, cart (copy).png, cart.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+MATCH, Sunday, 13-Dec-20 22:13:01 GMT, cart (copy).png, cart.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, cart (copy).png, wn.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, cart.png, wn.png, (0,0)-(1920,1080), (0,0)-(1920,1080)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, cb (copy).png, cb.png, (0,0)-(1056,521), (0,0)-(1056,521)
+MATCH, Sunday, 13-Dec-20 22:13:01 GMT, cb (copy).png, cb.png, (0,0)-(1056,521), (0,0)-(1056,521)
+COMPARE, Sunday, 13-Dec-20 22:13:01 GMT, cross-icon (copy).png, cross-icon.png, (0,0)-(320,512), (0,0)-(320,512)
+MATCH, Sunday, 13-Dec-20 22:13:01 GMT, cross-icon (copy).png, cross-icon.png, (0,0)-(320,512), (0,0)-(320,512)
+COMPARE, Sunday, 13-Dec-20 22:13:02 GMT, datasource (copy).png, datasource.png, (0,0)-(802,688), (0,0)-(802,688)
+MATCH, Sunday, 13-Dec-20 22:13:02 GMT, datasource (copy).png, datasource.png, (0,0)-(802,688), (0,0)-(802,688)
+COMPARE, Sunday, 13-Dec-20 22:13:02 GMT, dummy-200x200 (copy).png, dummy-200x200.png, (0,0)-(200,200), (0,0)-(200,200)
+MATCH, Sunday, 13-Dec-20 22:13:02 GMT, dummy-200x200 (copy).png, dummy-200x200.png, (0,0)-(200,200), (0,0)-(200,200)
+COMPARE, Sunday, 13-Dec-20 22:13:02 GMT, edit (copy).png, edit.png, (0,0)-(452,452), (0,0)-(452,452)
+MATCH, Sunday, 13-Dec-20 22:13:02 GMT, edit (copy).png, edit.png, (0,0)-(452,452), (0,0)-(452,452)
+COMPARE, Sunday, 13-Dec-20 22:13:02 GMT, footer (copy).png, footer.png, (0,0)-(328,548), (0,0)-(328,548)
+MATCH, Sunday, 13-Dec-20 22:13:02 GMT, footer (copy).png, footer.png, (0,0)-(328,548), (0,0)-(328,548)
+COMPARE, Sunday, 13-Dec-20 22:13:02 GMT, mobile (copy).png, mobile.png, (0,0)-(659,804), (0,0)-(659,804)
+MATCH, Sunday, 13-Dec-20 22:13:02 GMT, mobile (copy).png, mobile.png, (0,0)-(659,804), (0,0)-(659,804)
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, Home_made_sour_dough_bread.jpg, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, cart.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, cb.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, cross-icon.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, datasource.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, dummy-200x200.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, edit.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, footer.png, /home/jasper/Pictures/dupli/duplicates
+COPY, Sunday, 13-Dec-20 22:13:03 GMT, mobile.png, /home/jasper/Pictures/dupli/duplicates
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/Home_made_sour_dough_bread (copy).jpg
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/cart (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/cb (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/cross-icon (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/datasource (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/dummy-200x200 (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/edit (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/footer (copy).png
+DELETE, Sunday, 13-Dec-20 22:13:03 GMT, /home/jasper/Pictures/dupli/mobile (copy).png
+FINISH, Sunday, 13-Dec-20 22:13:03 GMT, SUCCESS, COUNT_9
