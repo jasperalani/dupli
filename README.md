@@ -16,3 +16,6 @@ Dupli uses [imgdiff](https://github.com/n7olkachev/imgdiff) to work.
 ### Todo
 - Add soft mode (Copy images that are not duplicates to another folder)
 - Create app folder (somewhere) for log storage
+
+
+##### Version  1.0.0
